@@ -12,6 +12,8 @@
 		900219701D35545300561C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9002196E1D35545300561C87 /* Main.storyboard */; };
 		900219721D35545300561C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900219711D35545300561C87 /* Assets.xcassets */; };
 		900219751D35545300561C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900219731D35545300561C87 /* LaunchScreen.storyboard */; };
+		9002197D1D3554C400561C87 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002197C1D3554C400561C87 /* GraphView.swift */; };
+		9002197F1D3554E500561C87 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002197E1D3554E500561C87 /* String+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		900219711D35545300561C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		900219741D35545300561C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		900219761D35545300561C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9002197C1D3554C400561C87 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		9002197E1D3554E500561C87 /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				900219711D35545300561C87 /* Assets.xcassets */,
 				900219731D35545300561C87 /* LaunchScreen.storyboard */,
 				900219761D35545300561C87 /* Info.plist */,
+				9002197C1D3554C400561C87 /* GraphView.swift */,
+				9002197E1D3554E500561C87 /* String+Additions.swift */,
 			);
 			path = "Line Graph";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				9002196D1D35545300561C87 /* ViewController.swift in Sources */,
 				9002196B1D35545300561C87 /* AppDelegate.swift in Sources */,
+				9002197F1D3554E500561C87 /* String+Additions.swift in Sources */,
+				9002197D1D3554C400561C87 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
